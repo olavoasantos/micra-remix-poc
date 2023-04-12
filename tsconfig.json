@@ -1,0 +1,32 @@
+{
+  "include": [
+    "register.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "vite.config.ts"  ],
+  "compilerOptions": {
+    "module": "nodenext",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2019"
+    ],
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "target": "ES2019",
+    "strict": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "./app/*"
+      ]
+    },
+    "noEmit": true
+  }
+}

@@ -1,0 +1,15 @@
+export {AnyGuard as any} from './classes/AnyGuard';
+export {ArrayGuard as array} from './classes/ArrayGuard';
+export {BigIntGuard as bigInt} from './classes/BigIntGuard';
+export {BooleanGuard as boolean} from './classes/BooleanGuard';
+export {DateGuard as date} from './classes/DateGuard';
+export {FunctionGuard as function} from './classes/FunctionGuard';
+export {NullGuard as null} from './classes/NullGuard';
+export {NullishGuard as nullish} from './classes/NullishGuard';
+export {NumberGuard as number} from './classes/NumberGuard';
+export {RecordGuard as record} from './classes/RecordGuard';
+export {RegExpGuard as regExp} from './classes/RegExpGuard';
+export {StringGuard as string} from './classes/StringGuard';
+export {SymbolGuard as symbol} from './classes/SymbolGuard';
+export {TupleGuard as tuple} from './classes/TupleGuard';
+export {UndefinedGuard as undefined} from './classes/UndefinedGuard';
